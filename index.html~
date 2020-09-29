@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <link rel="stylesheet" href="css/animate.css" />
   <link rel="stylesheet" href="css/style.css" />
-  <title>HSPFO</title>
+  <title>Fagner Nunes</title>
 </head>
 
 <body>
@@ -15,7 +15,7 @@
   <div class="container navbar" >
     <header>
       <div class="lgo" >
-        <h1>Harish</h1>
+        <h1>Fagner</h1>
       </div>
 
       <nav>
@@ -23,11 +23,13 @@
           <li><a href="#about">About Me</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#work">My Work</a></li>
+          <li><a href="#work"><img src="img/Icon%20awesome-github.svg"></a></li>
         </ul>
       </nav>
 
     </header>
   </div>
+
 
 
 
@@ -49,6 +51,17 @@
         <span class="m-left name">r</span>
         <span class="m-left">,</span>
         <br>
+        <span class="name">A</span>
+        <span class="m-left name">n</span>
+        <span class="m-left name">d</span>
+
+        <span class="name">I</span>
+        <span class=" name">a</span>
+        <span class="m-left name">m</span>
+
+        <span class=" name">a</span>
+
+<br>
         <span class="name">W</span>
         <span class="m-left name">e</span>
         <span class="m-left name">b</span>
@@ -64,12 +77,12 @@
         <span class="m-left name">e</span>
         <span class="m-left name">r</span>
       </h1>
-      <p>CSS / javaScript / React</p>
+      <p>CSS / javaScript / React / ReactNative / Python / PHP / SQL / AWS </p>
       <a href="#contact">contact me</a>
     </div>
 
     <div class="profile-image">
-      <img src="img/profile-image.png" alt="">
+      <img src="img/Group%202.svg" alt="">
 
     </div>
   </div>
@@ -77,18 +90,15 @@
   <div class="container about" id="about">
     <h1>About</h1>
     <div class="about-me-info">
-      <p>Some text can be copied from the internet or some more can be just pasted. The difference is just in the making
-        of a <a href="#work">Something</a>
-        superhuman power that arises from within just copying stuff
+      <p>My name is Fagner Nunes and I am a full-stack developer.</br></br> I am creative, friendly and passionate about learning new technologies and bringing ideas to life
       </p>
-      <p>Some text can be copied from the internet or some more can be just pasted. The difference is just in the making
-        of a
-        superhuman power that arises from within just copying stuff
+      <p>At the moment I am enrolled in a bachelor in computing course at the National College of Ireland, and I am looking forward to joining this incredible industry.
       </p>
-      <p>Some text can be copied from the internet or some more can be just pasted. The difference is just in the making
-        of a
-        superhuman power that arises from within just copying stuff
+      <p>
+        I enjoy skating, playing the piano, travelling and playing games.
+
       </p>
+
     </div>
     <img src="img/dotted-shape.png" alt="">
   </div>
@@ -96,11 +106,8 @@
   <div class="container skills" id="skills">
 
     <h1>Skills</h1>
-    <p class="skills-info">Some text can be copied from the internet or some more can be just pasted. The difference is
-      just in the making of a superhuman power that arises from within just copying stuff. Some text can be copied from the internet or some
-      more can be just pasted. The difference is just in the making of a superhuman power that arises from within just copying 
-      stuff</p>
-
+    <p class="skills-info">I completed numerous online courses that helped me develop a solid understanding of back and front end technologies. Furthermore, I am regularly working on new projects so I can sharpen my skills and gain more experience. </p>
+<div id="cont">
     <div class="html">
       <div class="tag-html">
         <p>HTML</p>
@@ -137,34 +144,148 @@
       </div>
     </div>
 
+    <div class="html">
+      <div class="tag-react">
+        <p>ReactNative</p>
+      </div>
+      <div class="progressbar">
+        <div class="bar-reactNative"></div>
+      </div>
+    </div>
+    <div class="html">
+      <div class="tag-react">
+        <p>Python</p>
+      </div>
+      <div class="progressbar">
+        <div class="bar-python"></div>
+      </div>
+    </div>
+    <div class="html">
+      <div class="tag-react">
+        <p>Sql</p>
+      </div>
+      <div class="progressbar">
+        <div class="bar-sql"></div>
+      </div>
+    </div>
+    <div class="html">
+      <div class="tag-react">
+        <p>Php</p>
+      </div>
+      <div class="progressbar">
+        <div class="bar-php"></div>
+      </div>
+    </div>
+
+</div>
   </div>
 
   <div class="container work" id="work">
 
-    <h1>work</h1>
+    <h1>Projects</h1>
     <div class="work-category">
-      <button id="designing" onclick="showRequiredCategory(this)">Web Designing</button>
-      <button id="animation" onclick="showRequiredCategory(this)">Web Animation</button>
+      <button id="designing" onclick="showRequiredCategory(this)">All</button>
+      <button id="animation" onclick="showRequiredCategory(this)">Full Stack</button>
       <button id="project" onclick="showRequiredCategory(this)">React Projects</button>
     </div>
     
     <div class="category-designing showCategory">
-      <a href=""><img src="img/1.png" alt=""></a>
-      <a href=""><img src="img/2.png" alt=""></a>
-      <a href=""><img src="img/3.png" alt=""></a>
-      <a href=""><img src="img/2.png" alt=""></a>
-      <a href=""><img src="img/3.png" alt=""></a>
+      <div id='all_1'>
+        <div class="inner">
+          <p>
+          Book reviewing web app.
+          Developed using: Flask, React, Css3, Postgresql
+          </p><div>
+        <a href="book-audit.herokuapp.com"><img src="img/Icon%20metro-display.svg"></a> <a href="https://github.com/Happollyon/Class2/tree/master/project"><img src="img/Icon%20awesome-github.svg"></a>
+        </div>
+        </div>
+      </div>
+      <div id='all_2'>
+        <div class="inner">
+          <p>
+          Social network for league of legends players.
+          Developed using: Flask, React,aws, Css3, Postgresql
+          </p>
+          <div>
+            <a href="https://duopoint.herokuapp.com/"><img src="img/Icon%20metro-display.svg"></a> <a href="https://github.com/Happollyon/duopoint"><img src="img/Icon%20awesome-github.svg"></a>
+          </div>
+        </div>
+
+      </div>
+      <div id='all_3'>
+        <div class="inner">
+          <p>
+          Social network for sharing memes.
+          Developed using: PHP, HTML, Css, Jquery
+          </p>
+          <div>
+            <a href="http://www.fagnernunes.com/meme/"><img src="img/Icon%20metro-display.svg"></a> <a href="https://github.com/Happollyon/meme"><img src="img/Icon%20awesome-github.svg"></a>
+          </div>
+        </div>
+
+      </div>
+      <div id='all_4'>
+        <div class="inner">
+          <p>
+          WebApp that shows how much interaction your tweets got.
+          developed using React
+          </p>
+          <div>
+            <a href="http://www.fagnernunes.com/twitter/"><img src="img/Icon%20metro-display.svg"></a> <a href="https://github.com/Happollyon/TweetAnalytics"><img src="img/Icon%20awesome-github.svg"></a>
+          </div>
+        </div>
+      </div>
+      <div id='all_5'>
+        <div class="inner">
+          <p>
+          Italian restaurant online ordering app.
+          Developed using Django, PostgreSQL
+          </p>
+          <div>
+            <a><img src="img/Icon%20metro-display.svg"></a> <a href="https://github.com/Happollyon/pizzaProject"><img src="img/Icon%20awesome-github.svg"></a>
+          </div>
+        </div>
+      </div>
+      <div id='all_6'>
+        <div class="inner">
+          <p>
+          WebApp which helps developers use the Twitter api.
+          Developed using React
+          </p>
+          <div>
+            <a  href="http://www.fagnernunes.com/twitterToken/"><img src="img/Icon%20metro-display.svg"></a> <a href="https://github.com/Happollyon/TwitterBearerToken"><img src="img/Icon%20awesome-github.svg"></a>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="category-animation hideCategory">
-      <a href=""><img src="img/1.png" alt=""></a>
-      <a href=""><img src="img/2.png" alt=""></a>
-      <a href=""><img src="img/3.png" alt=""></a>
+      <div id='project_1'>
+        <div class="inner">   random text 1</div>
+      </div>
+      <div id="project_2" >
+        <div class="inner">random text 2</div>
+      </div>
+      <div id="project_3">
+        <div class="inner">random text 3</div>
+      </div>
+
+      <div id="project_4">
+        <div class="inner">random text 4</div>
+      </div>
     </div>
     <div class="category-project hideCategory">
-      <a href=""><img src="img/1.png" alt=""></a>
-      <a href=""><img src="img/2.png" alt=""></a>
-      <a href=""><img src="img/3.png" alt=""></a>
-      <a href=""><img src="img/2.png" alt=""></a>
+      <div id='react_1'>
+        <div class="inner">   random text 1</div>
+      </div>
+      <div id='react_2'>
+        <div class="inner">   random text 1</div>
+      </div>
+      <div id='react_3'>
+        <div class="inner">   random text 1</div>
+      </div>
+      <div id='react_4'>
+        <div class="inner">   random text 1</div>
+      </div>
     </div>
   </div>
 
