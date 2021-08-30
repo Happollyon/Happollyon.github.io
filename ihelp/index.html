@@ -1,0 +1,278 @@
+<!doctype html>
+<html>
+<head>
+	<script>
+		function submitRegister(){
+				
+					email =document.getElementById('register_email').value
+					
+					name =document.getElementById('register_name').value
+					password =document.getElementById('register_pass').value
+					password_test =document.getElementById('register_pass_test').value
+					if(email==""||password==""||name==""||password_test==""){
+
+				alert("no fields should empyt.")
+							}else{
+								alert('registered!')
+									}	
+				}
+
+		function submitLogin(){
+
+					email = document.getElementById('login_email').value
+					password = document.getElementById('login_password').value
+					if(email==""||password==""){
+								alert('email/pass cant be empyt.')
+
+							}else{
+					alert('Logged in!')
+									}
+				}
+	</script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ihelp</title>
+<link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+	 <div id='landing'>
+		 <nav> 
+			 <div id='logo'>
+				 <div>
+				 	<img src='assets/hand.svg'/>
+				 </div>
+				 ihelp
+			</div>
+			<div id='navLinks'>
+				<div id="nav1">
+					<a href="#benefits">BENEFITS</a>
+				 	<a href="#testi">TESTIMONIALS</a>
+				</div>
+				<div id="nav2"> 
+					<a href="#pricing">PRICING</a>
+					<a href="#register">REGISTER</a>
+				</div>
+			</div>
+		</nav>
+		<div id="quote">
+			<div id='quote-cont'>
+				YOU ARE NOT ALONE</br> IN THIS.
+				
+			</div>	
+			<a href="#register" id='btn-cont'>
+				<div id="btn">
+					REGISTER
+				</div>
+			</a>
+		</div>
+
+		<div id="wave">
+			<img src='assets/wave.png'/>
+			<div id="girl">
+				<img src='assets/girl.png'/>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div id='benefits'>
+		<div id="benefits-title"> 
+				BENEFITS
+		</div>
+		<div id="benefits-cont">
+			<div id='benefits-left'>
+				<div class="left-item">
+					<div class='icon-cont'>
+						<img src='assets/heart.png'/>
+					</div>
+					<div class='text-cont'>
+						<h3>Effective </h3>
+						<p>ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
+					</div>
+				
+				</div>
+				<div class="left-item">	
+					<div class='icon-cont'>
+						<img src='assets/clock.png'/>
+					</div>
+				      <div class='text-cont'>
+						<h3>Convenient</h3>
+						<p>ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
+					</div>
+
+				</div>
+			</div>	
+			<div id='benefits-right'>
+		<div class="left-item">
+					<div class='icon-cont'>
+						<img src='assets/dollar.png'/>
+					</div>
+					
+					<div class='text-cont'>
+						<h3>Affordable </h3>
+						<p>ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
+					</div>
+				
+				</div>
+				<div class="left-item">	
+					<div class='icon-cont'>
+						<img src='assets/cert.png'/>
+					</div>
+				      <div class='text-cont'>
+						<h3>Certfied</h3>
+						<p>ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+
+	<div id='testi'>
+		<h2>Testimonials</h2>
+			<div class="reviews">		
+			<div class='review'>
+				<img src="assets/image.png"/>
+				<div class="review-text">
+				<h3>long&Big Title</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing e				lit, sed do eiusmod tempor incididunt ut labore et dolor				e magna aliqua. </p>
+				</div>
+			</div>
+			<div class='review'>
+                                <img src="assets/image.png"/>
+                                <div class="review-text">
+                                <h3>long&Big Title</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing e                                lit, sed do eiusmod tempor incididunt ut labore et dolor                                e magna aliqua. </p>
+                                </div>
+                        </div>
+			<div class='review'>
+                                <img src="assets/image.png"/>
+                                <div class="review-text">
+                                <h3>long&Big Title</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing e                                lit, sed do eiusmod tempor incididunt ut labore et dolor                                e magna aliqua. </p>
+                                </div>
+                        </div>
+		</div>
+		<div class='reviews'>
+			<div class='review'>
+                                <img src="assets/image.png"/>
+                                <div class="review-text">
+                                <h3>long&Big Title</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing e                                lit, sed do eiusmod tempor incididunt ut labore et dolor                                e magna aliqua. </p>
+                                </div>
+                        </div>
+			<div class='review'>
+                                <img src="assets/image.png"/>
+                                <div class="review-text">
+                                <h3>long&Big Title</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing e                                lit, sed do eiusmod tempor incididunt ut labore et dolor                                e magna aliqua. </p>
+                                </div>
+                        </div>
+			<div class='review'>
+                                <img src="assets/image.png"/>
+                                <div class="review-text">
+                                <h3>long&Big Title</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing e                                lit, sed do eiusmod tempor incididunt ut labore et dolor                                e magna aliqua. </p>
+                                </div>
+                        </div>
+
+
+		</div>
+	</div>
+
+	<div id='pricing'>
+			<h2 id='pricing-title'>Pricing</h2>
+			<div id="price-cont">
+				<div class="price-item">
+				 <div class="price-details">
+					<div class="price-value">
+					<h1>30 </h1>
+					<h3> /month</h3>
+					</div>
+					<div class="price-desc">
+						<div><h3>Members</h3><h2>1</h2></div>
+						<div><h3>daily sections</h3><h2>2</h2></div>
+						<div><h3>-</h3><h2>-</h2></div>
+						<div><h3>-</h3><h2>-</h2></div>
+						<div><h3>-</h3><h2>-</h2></div>
+					</div>
+				 </div>
+				 <div class="price-plan">Starting plan</div>
+				</div>
+				<div class="price-item">
+				 <div class="price-details">
+					<div class="price-value">
+					<h1>60 </h1>
+					<h3> /month</h3>
+					</div>
+					<div class="price-desc">
+						<div><h3>Members</h3><h2>2</h2></div>
+						<div><h3>daily sections</h3><h2>3</h2></div>
+						<div><h3>-</h3><h2>-</h2></div>
+						<div><h3>-</h3><h2>-</h2></div>
+						<div><h3>-</h3><h2>-</h2></div>
+					</div>
+				 </div>
+				 <div class="price-plan">Gold plan</div>
+				</div>
+<div class="price-item">
+				 <div class="price-details">
+					<div class="price-value">
+					<h1>90 </h1>
+					<h3> /month</h3>
+					</div>
+					<div class="price-desc">
+						<div><h3>Members</h3><h2>3</h2></div>
+						<div><h3>daily sections</h3><h2>5</h2></div>
+						<div><h3>-</h3><h2>-</h2></div>
+						<div><h3>-</h3><h2>-</h2></div>
+						<div><h3>-</h3><h2>-</h2></div>
+					</div>
+				 </div>
+				 <div class="price-plan">Premium plan</div>
+				</div>
+	
+			</div>
+	</div>
+
+	<div id='register'>
+	
+		<div id="register-cont">
+			<h1>Register</h1>
+			
+			<div id="register-inputs">
+				<h2>E-mail</h2>
+				<input id="register_email" type="email"pattern=".+@globex\.com" size="30" required/>
+				<h2>Name</h2>
+				<input id="register_name"/>
+				<h2>Password</h2>
+				<input id="register_pass"type="password"/>
+				<h2>Password</h2>
+				<input id="register_pass_test"type="password"/>
+			</div>
+
+			<div id="login-button" onClick="submitRegister()">REGISTER</div>
+		</div>
+		<div id="login-cont">
+			<h1>Login</h1>
+			<div id="login-inputs">
+				<h2>E-mail</h2>
+				<input id="login_email" pattern=".+@globex\.com" size="30" requiredtype="email"/>
+				<h2>Password</h2>
+				<input id="login_password"type="password"/>
+			</div>
+
+			<div id="login-button" onClick="submitLogin()">LOGIN</div>
+		</div>
+	</div>
+	<footer>
+		Created by Fagner Nunes
+	</footer>
+	
+	
+	
+</body>
+</html>
